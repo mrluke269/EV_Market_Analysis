@@ -32,7 +32,7 @@ The primary dataset used is the "[Electric Vehicle Population Size History By Co
 ## Key Deliverables
 
 * **Interactive Market Size Dashboard:** A Power BI dashboard providing dynamic visualizations and key performance indicators of the WA EV market, including historical trends, forecasts, and interactive insights.
-    * (https://github.com/mrluke269/EV_Market_Analysis/tree/main/reports)]
+    * [EV Market Power BI Dashboard](https://github.com/mrluke269/EV_Market_Analysis/tree/main/reports)
 
 * **Strategic Insights Report:** A comprehensive report (summarized above) detailing findings, methodology, and actionable recommendations for stakeholders.
     * [Strategic Insights Report](https://github.com/mrluke269/EV_Market_Analysis/tree/main/reports)
