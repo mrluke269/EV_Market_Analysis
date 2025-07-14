@@ -20,14 +20,19 @@ The primary dataset used is the "[Electric Vehicle Population Size History By Co
 1.  **Assess Historical Growth Trend & Forecast Future Registrations:**
     * **Finding:** WA EV market exhibits strong, accelerating exponential growth, with a pivotal inflection point around 2011 (entry of mass-market EVs). 2023 was a breakout year for new registrations.
     * **Forecast:** Projected to reach **1.35 Million EVs by 2030** and over **6.10 Million EVs by 2035**, with an estimated **35.14% CAGR**.
+    * ![Historical Growth Trend & Forecast Future Registrations](https://github.com/mrluke269/EV_Market_Analysis/blob/main/visualizations/2_EV_Adoption_Trends%26Forecast.png)
 2.  **Analyze Distribution (Models, Makes, EV Types):**
     * **Finding:** Tesla maintains clear market dominance (~45% share), with Model Y and Model 3 as top sellers. Nissan and Chevrolet hold significant, though smaller, shares.
     * **Finding:** Battery Electric Vehicles (BEVs) overwhelmingly dominate the market (~78.1% share) and continue to increase their lead over Plug-in Hybrid Electric Vehicles (PHEVs).
+    * ![](https://github.com/mrluke269/EV_Market_Analysis/blob/main/visualizations/3_Market_Segmentation.png)
+    * ![](https://github.com/mrluke269/EV_Market_Analysis/blob/main/visualizations/4_Technology%26Type_Trends.png)
 3.  **Analyze Geographical Distribution:**
     * **Finding:** EV adoption is highly concentrated in urban hotbeds: King, Snohomish, and Pierce counties lead in registrations.
+    * ![](https://github.com/mrluke269/EV_Market_Analysis/blob/main/visualizations/5_Geographical_Distribution.png)
 4.  **Identify Key Trends & Factors:**
     * **Finding:** BEV electric range has generally increased over time (except for a temporary dip around 2011, explained by mass-market entry). PHEV range remains stable.
     * **Finding:** CAFV Eligibility data shows significant "Eligibility unknown" entries for many BEVs, including a large portion of Teslas, highlighting data quality considerations for policy formulation.
+    * ![](https://github.com/mrluke269/EV_Market_Analysis/blob/main/visualizations/6_CAFV_Eligibility%26Policy.png)
 
 ## Key Deliverables
 
@@ -40,6 +45,8 @@ The primary dataset used is the "[Electric Vehicle Population Size History By Co
     * [`notebooks/01_explore_clean.ipynb`](notebooks/01_explore_clean.ipynb)
     * [`notebooks/02_eda_feature_engineering.ipynb`](notebooks/02_eda_feature_engineering.ipynb)
     * [`notebooks/03_forecasting.ipynb`](notebooks/03_forecasting.ipynb)
+  * **Actionable Recommendations:**:
+  * ![](https://github.com/mrluke269/EV_Market_Analysis/blob/main/visualizations/7_Recommendations.png)
 
 ## Project Structure
 
