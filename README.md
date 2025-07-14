@@ -1,5 +1,21 @@
 # Analyzing Washington State EV Market Size
 
+## Table of Contents
+
+* [Project Overview](#project-overview)
+* [Business Context](#business-context)
+* [Data Source](#data-source)
+* [Key Analytical Objectives & Findings](#key-analytical-objectives--findings)
+    * [Assess Historical Growth Trend & Forecast Future Registrations](#1-assess-historical-growth-trend--forecast-future-registrations)
+    * [Analyze Distribution (Models, Makes, EV Types)](#2-analyze-distribution-models-makes-ev-types)
+    * [Analyze Geographical Distribution](#3-analyze-geographical-distribution)
+    * [Identify Key Trends & Factors](#4-identify-key-trends--factors)
+* [Key Deliverables](#key-deliverables)
+* [Project Structure](#project-structure)
+* [Tools & Technologies](#tools--technologies)
+* [Challenges & Key Learnings](#challenges--key-learnings)
+* [Contact](#contact)
+
 ## Project Overview
 
 This project provides a comprehensive analysis and forecast of the Electric Vehicle (EV) market in Washington State, leveraging historical registration data. The primary objective was to understand current market penetration, predict future growth, and identify key trends and factors driving market expansion to support strategic decision-making for stakeholders in EV production, infrastructure development, and policy formulation.
