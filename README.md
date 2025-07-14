@@ -43,9 +43,9 @@ The primary dataset used is the "[Electric Vehicle Population Size History By Co
 
 ## Project Structure
 
-* `data/`: Stores raw and processed datasets (`df_wa.csv`, `combined_ev_forecast_with_type.csv`).
+* `data/`: Stores raw dataset (`df_wa.csv`).
 * `notebooks/`: Contains Jupyter notebooks detailing the analytical workflow.
-* `reports/`: Houses the Strategic Insights Report (e.g., PDF) and potentially the Power BI Desktop file (`.pbix`).
+* `reports/`: Houses the Strategic Insights Report and the Power BI Desktop file (`.pbix`).
 * `visualizations/`: Stores screenshots of dashboard pages and key charts.
 
 ## Tools & Technologies
@@ -56,12 +56,6 @@ The primary dataset used is the "[Electric Vehicle Population Size History By Co
 * **Version Control:** Git & GitHub.
 * **Environment:** Google Colab (to overcome local environment challenges).
 
-## How to View This Project
-
-1.  **Dashboard:** Access the interactive Power BI dashboard via the [link provided above](#key-deliverables) (if published online). Otherwise, download the Power BI Desktop file from the `reports/` folder and open it with Power BI Desktop.
-2.  **Report:** View the full Strategic Insights Report [here](#key-deliverables).
-3.  **Code:** Explore the detailed analytical steps by opening the Jupyter Notebooks in the `notebooks/` directory. These can be viewed directly on GitHub or opened in Jupyter/Google Colab.
-
 ## Challenges & Key Learnings
 
 This project presented several real-world challenges that provided significant learning opportunities:
@@ -69,14 +63,8 @@ This project presented several real-world challenges that provided significant l
 * **Time Series Proxy:** Successfully defining "historical growth trend" using `Model Year` and `DOL Vehicle ID` as a proxy for cumulative active registrations in the absence of explicit registration dates.
 * **Forecasting Model Selection:** Adapting the forecasting approach from complex ARIMA (due to environmental constraints) to a robust and intuitive exponential curve fitting (`scipy.optimize.curve_fit`), which proved highly effective for the observed growth pattern.
 * **Power BI Data Modeling & DAX:** Overcoming challenges with Power BI's time intelligence functions (e.g., `PREVIOUSYEAR` requiring a continuous `Date Table`) and `Top N` filter limitations, demonstrating resilience in dashboard development.
-* **Environment Management (Windows ARM):** Navigating persistent `numpy`/`pandas` installation issues on a Windows ARM architecture by strategically leveraging Google Colab, highlighting the importance of adaptable tool utilization.
 
-## Future Work
 
-* Integrate additional data sources such as charging infrastructure availability, local demographic data, and economic indicators for more granular insights and refined forecasts.
-* Explore more advanced time series models (e.g., Prophet, SARIMAX) if future data patterns become more complex or seasonality emerges.
-* Conduct a deeper analysis of EV adoption by vehicle segment (e.g., sedans vs. SUVs vs. trucks) as more models become available.
-* Investigate the impact of specific policy changes or incentives on adoption rates.
 
 ---
-**Contact:** [Your Name] | [Your LinkedIn Profile Link (Recommended)] | [Your Email Address (Optional)]
+**Contact:** Luke Mai | [[LinkedIn](https://www.linkedin.com/in/lukemai/)] | [luke.trmai@gmail.com]
