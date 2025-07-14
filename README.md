@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-* [Project Overview](#project-overview)
-* [Business Context](#business-context)
-* [Data Source](#data-source)
-* [Key Analytical Objectives & Findings](#key-analytical-objectives--findings)
-* [Key Deliverables](#key-deliverables)
-* [Project Structure](#project-structure)
-* [Tools & Technologies](#tools--technologies)
-* [Challenges & Key Learnings](#challenges--key-learnings)
-* [Contact](#contact)
+* 1.   [Project Overview](#project-overview)
+* 2.   [Business Context](#business-context)
+* 3.   [Data Source](#data-source)
+* 4.   [Key Analytical Objectives & Findings](#key-analytical-objectives--findings)
+* 5.   [Key Deliverables](#key-deliverables)
+* 6.   [Project Structure](#project-structure)
+* 7.   [Tools & Technologies](#tools--technologies)
+* 8.   [Challenges & Key Learnings](#challenges--key-learnings)
+* 9.   [Contact](#contact)
 
 ## Project Overview
 
